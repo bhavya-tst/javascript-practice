@@ -1,0 +1,5 @@
+use srict :- It will create visible error which Javascript will simply fail silently.
+            Declare use strict at top or it will give unexpected results.
+            Declare it inside function to use it only in function and not outside.
+
+Functions:- A Piece of code which we can reuse it again and again in code is called function.
