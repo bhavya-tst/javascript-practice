@@ -1,1 +1,1 @@
-Codes and notes from javascript course.
+Codes and notes from js course.
