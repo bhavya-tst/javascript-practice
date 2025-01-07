@@ -1,0 +1,23 @@
+Javascript is High level object oriented language.
+
+varaibles:- varaibles are like box to store values.
+            variable name cannot start with number.
+            variable name can only contains numbers,letters,_ and $.
+            Reserve keywords can't be used as variable names.
+            Write varaible name in all uppercase letter for constant value like PI.
+
+Typeof null is object.**
+Let and const are added in ES6.
+console.log(3/0); // Infinity
+console.log("Bhavya"*2); // NaN
+
+0,'',undefined,null,NaN are falsy values
+{},[] any number other than 0,any string other than empty string are truthy values.
+
+switch: we can write defalut any where in switch block.
+
+statment and expression: Piece of code which evaluates to an value is expression eg. true && !false while statment can be made of expression and other code also eg.If else statments.
+
+Browsers have backward compabality but not forward compabality means new Browsers can run old Javascript versions but old Browsers cannot run new features.
+
+Type Conversion and coercion: When we change type manualy is type conversion and when Javascript automatically cahnges type it is called coercion eg when adding string to number.
