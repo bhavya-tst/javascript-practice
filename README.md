@@ -1,1 +1,3 @@
-Codes and notes from javascript course and git hub practice.
+
+Codes and notes from js course.
+And a repo for github practice
