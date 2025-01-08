@@ -1,0 +1,8 @@
+git branch -M newName :- set new newName
+git branch :- to check branchs.
+git checkout branchName :- to change branch.
+git checkout -b newBranchName :- to create new branch.
+git branch -d branchName :- to delete branch.
+git remote -v :- To Check remotes
+git remote add remoteName :- By defalut repo will be origin if git clone done or if not clone then add remote first.
+git push -u remoteName branchName
