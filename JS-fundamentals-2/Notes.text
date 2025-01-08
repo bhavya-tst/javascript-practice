@@ -3,3 +3,18 @@ use srict :- It will create visible error which Javascript will simply fail sile
             Declare it inside function to use it only in function and not outside.
 
 Functions:- A Piece of code which we can reuse it again and again in code is called function.
+
+Arrays:- To store multiple values in one variables.
+         new Array(value1,value2...) can also be used to make array.
+         .length is used to find length
+         .push(value) will append value at back and will return new length.
+         .unshift(value) will add value to start of array and return new length.
+         .pop() will remove last element form array and return element.
+         .shift() will remove first element form array and return element.
+
+Objects:- Used to store more ustructured data.
+          elements can be accessed by Dot or baracket notation.
+          use Barcket notation when we have to compute property name.
+          function used inside object are called methods.
+          this keyword is used to accces current object or varaiable name can also be used but not recommanded.
+          Important we can store value calculated inside function in function itself.
