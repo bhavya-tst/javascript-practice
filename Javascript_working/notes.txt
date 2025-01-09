@@ -1,0 +1,31 @@
+
+Javascipt Features :- High-level,Garbage Collected,Interpreted Just-in-time compiled,Multi-paradigm
+prototype based object oriented,first class functions,dynamic,single-threaded,Non-blocking event loop.
+
+Muti-paradigm:-  Paradigm means way to coding. Mutli paradigm in language means having multiple way of writing compiled
+eg. object-oriented,function programing(function as first class) and procedural programing.
+
+First class functions:- functions are treated as variables.We can pass them in other functions and return them form functions.
+
+Javascipt compilation:- Mordern Javascipt is just-in-time complied means full code is first complied and then executed but no seperate exe file is produced.
+
+Compilation Process:- First code is parse into a ast.Then ast is compiled in machine code.Then it is executed.
+
+execution context:- Environment in which a piece of Javascipt is executed.Stores all necessary information for some code to be executed.
+
+Global execution context is created first and then other execution context are created.
+
+Hoisting:- Var are hoisted but value will be undefined. function declaration are hoisted.
+            function expression declared with var are hoisted.
+            let and const are not hoisted,function expression with let and const are not hoisted.
+            let const are in TDZ before declaration so they will give cannot use before initilization error.
+
+this:- method :- this will point to object that is calling method.
+       Simple function call :- this will point to the window object in the browser if not in strict mode
+                               In strict mode, this will be undefined.
+       In arrow function:- this will point to the parent object of the function where it is defined 
+                            i.e. window object (lexical this)
+        Event listeners:- dom element that event is attached to.
+**Important on creating var variables it will create property in window object so it is accessed by this
+
+arguments:- arguments keyword is only for normal functions not for arrow functions.
