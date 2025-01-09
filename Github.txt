@@ -11,3 +11,6 @@ git reset fileName (if changes only added)
 git reset HEAD~1 (if changes commited)
 git reset hash 
 git reset --hard hash
+
+git log (to see commit log)
+git push -f remoteName branchName
