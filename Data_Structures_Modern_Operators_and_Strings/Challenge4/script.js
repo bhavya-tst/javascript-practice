@@ -11,8 +11,8 @@ button.addEventListener('click',()=>{
     const validWords=[];
     for(const word of words){
         if(word.includes('_')){
-            const [first,second]=word.split("_");
-            validWords.push(first.toLowerCase()+second[0].toUpperCase()+second.slice(1).toLowerCase());
+            const [first,second]=word.toLowerCase().split("_");
+            validWords.push(first+second[0].toUpperCase()+second.slice(1));
         }
     }
     
