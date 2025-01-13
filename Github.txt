@@ -14,3 +14,4 @@ git reset --hard hash
 
 git log (to see commit log)
 git push -f remoteName branchName
+git revert hash(or HEAD for only one commit back)
