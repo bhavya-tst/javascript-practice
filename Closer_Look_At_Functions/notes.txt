@@ -1,0 +1,11 @@
+
+Passing primitive value as argument will not change original value but non-primitive as argument original values will be changed
+(consider passing arguments as coping data.)
+
+Making same method for two object is bad so declare function outside and call it using call,bind,apply mehtod to use this.
+
+In call method first argument is object(this) we want to set and after that pass arguments.
+In apply method first arguments is object(this) and other arguments should be passed in array.
+Bind function will return new function with this attached and we can also created method for particlular argument by passing them when creating find function.
+
+IIFE are earlier created for creating variable as var are function scoped but now they are not used much because let and const are block scope.

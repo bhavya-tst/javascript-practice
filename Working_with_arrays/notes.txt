@@ -1,0 +1,2 @@
+slice:- will not include ending index.will return new changed array.
+splice:- will include ending index.will change in original array.
