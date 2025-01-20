@@ -15,3 +15,7 @@ git reset --hard hash
 git log (to see commit log)
 git push -f remoteName branchName
 git revert hash(or HEAD for only one commit back)
+
+git config --list 
+git config user.email "email"
+git config user.name "username"

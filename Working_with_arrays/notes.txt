@@ -1,2 +1,20 @@
 slice:- will not include ending index.will return new changed array.
-splice:- will include ending index.will change in original array.
+splice:- will change in original array.First argument is index to remove element and second argument is no of elements to remove.
+reverse:- Mutate the original array.
+sort:- Mutate the original array.
+Concat:- Does not mutate the original array.
+join- join all elements with character passed.
+
+forEach:- we get current element,index and array in each iteration of forEach.Break and continue will not work in forEach.
+          In map it will return value,key and map.
+          In set it will return value,key and map but in set there is no key or index so key will be equal to value.
+
+map:- Return new array.
+filter:- Filter out values and return new array.
+Reduce:- Reduce array to single value(adding).Each iterations has acc,current,index and array.
+         Pass intital value of acc after functions and return new value in each iterations. 
+
+some and every:- Includes only check for equality but some can check for condition same with every but will return true only if every element statisfy condition.
+
+flat:- defalut will flat 1 depth of array and for more depth pass in function eg. falt(depth).
+flatmap:- combines both map and flat map but has only depth of 1.
