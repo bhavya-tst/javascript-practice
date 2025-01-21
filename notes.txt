@@ -1,0 +1,2 @@
+
+Primitive will not have methods Javascript convert it to object and then after appling method again convert it back to original.

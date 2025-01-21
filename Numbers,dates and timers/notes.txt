@@ -1,0 +1,12 @@
+
+Javascript stores numbers in binary form so it is having bugs while storing decimal values.
+Isfinite is best way to check a number.**
+parseInt :- In pareseInt we can pass base also eg.parseInt('30px', 10)
+
+trunc vs floor :- floor and trunc are same for positive number but different for negative number.
+toFixed will return a string.
+
+Math operations will not work on BigInt.
+
+for dates use Intl.DateTimeFormat() and pass options to format.
+use navigator.language to get browser lang.
