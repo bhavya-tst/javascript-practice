@@ -1,0 +1,26 @@
+
+Abstraction:- Ignoring or hiding data that don't matter,allowing us to  get an overview perspective of the things we're implementing,instead of messing with details that don't really matters to our implementation.
+
+Enscapsulation: keeping  properties and methods private inside the class, so they are not accessible from outside of class.
+
+Inheritance: Making all properties and methods of a certain class available to a child class,froming a hierarchial relationship between classes.This allow us to reuse common logic and to model real world relationship.
+
+Prototypal Inheritance:- The prototypes contains methods that are accessible to  all objects linked to that prototype.
+
+constructor function (using new operator):- Always use function() to declare as arrow function does not have this keyword.
+                        1. A new {} is created
+                        2. Function is called, this = {}
+                        3. {} linked to prototype
+                        4. function automatically return {}
+
+                        Never create mehtod inside constructor function beacuse it will create method for each declaration.
+
+ES6 Classes are just syntatic sugar behind the scences it uses prototypal chaning only.
+Import notes for classes:- 1.Classes are not hoisted.
+                            2.Classes are first class citizens.
+                            3.Classes are executed in strict mode.
+
+
+Getter and setter:- If we change a property using setter than we have to make a getter to excess the value.
+                    While setting a property use another name (by adding _ at start convention) else progrom will run for infinte times.
+                    We can only create getter or setter if not changing property.
