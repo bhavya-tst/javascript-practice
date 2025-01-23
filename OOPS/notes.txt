@@ -22,5 +22,10 @@ Import notes for classes:- 1.Classes are not hoisted.
 
 
 Getter and setter:- If we change a property using setter than we have to make a getter to excess the value.
-                    While setting a property use another name (by adding _ at start convention) else progrom will run for infinte times.
                     We can only create getter or setter if not changing property.
+
+By default constructor of student class will be parent class ,we have to change it.
+
+Enscapsulation:- Protected valiable can be made using _variable name (Only convenction still accessible outside class.)
+                Private can be made using #variable name outside constructor function
+                Public can be made using variable name outside constructor function
